@@ -4,6 +4,9 @@ import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.config.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * 自定义的代码生成器类
+ */
 public class CustomGenerator {
     @Autowired
     private GlobalConfig globalConfig;

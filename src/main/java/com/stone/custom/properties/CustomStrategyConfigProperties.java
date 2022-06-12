@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 输出策略配置对象属性封装类
+ */
 @Component
 @ConfigurationProperties(prefix = "stone.strategy")
 public class CustomStrategyConfigProperties {

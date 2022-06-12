@@ -1,14 +1,18 @@
 stone:
+  # 数据源配置
   datasource:
-    url: "jdbc:mysql://localhost:3306/shanjupay_merchant_service?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false"
+    url: "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false"
     username: root
-    password: root
+    password: 1234
+  # 全局配置
   global:
     author: stone
     enable-swagger: true
-    output-dir: D:\JavaStudy\Level2\custom-generator-demo\src\main\java
+    output-dir: D:\custom-generator-demo\src\main\java
+  # 包路径配置
   package:
     parent: com.stone
     xml: mapper.xml
+  # 类输出策略配置
   strategy:
     table-prefix: t_

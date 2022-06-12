@@ -3,6 +3,9 @@ package com.stone.custom.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * 数据源对象属性封装类
+ */
 @Component
 @ConfigurationProperties(prefix = "stone.datasource")
 public class CustomDataSourceConfigProperties {

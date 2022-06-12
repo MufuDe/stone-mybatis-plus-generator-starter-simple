@@ -4,6 +4,9 @@ import com.baomidou.mybatisplus.generator.config.ConstVal;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * 模板选择配置数据封装类
+ */
 @Component
 @ConfigurationProperties(prefix = "stone.template")
 public class CustomTemplateConfigProperties {

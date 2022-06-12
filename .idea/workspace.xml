@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86236af4-c3a0-4ba9-b31c-952616a7c9a3" name="Changes" comment="" />
+    <list default="true" id="86236af4-c3a0-4ba9-b31c-952616a7c9a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/CustomGeneratorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/CustomGeneratorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/autoconfig/MyBatisPlusGeneratorAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/autoconfig/MyBatisPlusGeneratorAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomGlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomGlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomPackageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomPackageConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomStrategyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomStrategyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/config/CustomTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/generator/CustomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/generator/CustomGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomDataSourceConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomDataSourceConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomGlobalConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomGlobalConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomPackageConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomPackageConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomStrategyConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomStrategyConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomTemplateConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stone/custom/properties/CustomTemplateConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/demo-yml/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/demo-yml/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/demo-yml" />
@@ -46,10 +68,22 @@
       <option name="presentableId" value="Default" />
       <updated>1655034501646</updated>
       <workItem from="1655034503498" duration="6016000" />
+      <workItem from="1655041886293" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

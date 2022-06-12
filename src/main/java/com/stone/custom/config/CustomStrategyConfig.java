@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
+/**
+ * 输出策略配置对象
+ */
 @Component
 public class CustomStrategyConfig {
 

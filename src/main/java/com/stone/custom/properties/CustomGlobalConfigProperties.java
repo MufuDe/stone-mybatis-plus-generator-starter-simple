@@ -3,6 +3,9 @@ package com.stone.custom.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * 全局配置对象属性封装类
+ */
 @Component
 @ConfigurationProperties(prefix = "stone.global")
 public class CustomGlobalConfigProperties {
