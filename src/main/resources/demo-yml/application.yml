@@ -1,0 +1,14 @@
+stone:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/shanjupay_merchant_service?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false"
+    username: root
+    password: root
+  global:
+    author: stone
+    enable-swagger: true
+    output-dir: D:\JavaStudy\Level2\custom-generator-demo\src\main\java
+  package:
+    parent: com.stone
+    xml: mapper.xml
+  strategy:
+    table-prefix: t_

@@ -1,0 +1,321 @@
+{
+  "groups": [
+    {
+      "name": "stone.datasource",
+      "type": "com.stone.custom.properties.CustomDataSourceConfigProperties",
+      "sourceType": "com.stone.custom.properties.CustomDataSourceConfigProperties"
+    },
+    {
+      "name": "stone.global",
+      "type": "com.stone.custom.properties.CustomGlobalConfigProperties",
+      "sourceType": "com.stone.custom.properties.CustomGlobalConfigProperties"
+    },
+    {
+      "name": "stone.package",
+      "type": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties"
+    },
+    {
+      "name": "stone.strategy",
+      "type": "com.stone.custom.properties.CustomStrategyConfigProperties",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.template",
+      "type": "com.stone.custom.properties.CustomTemplateConfigProperties",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "stone.datasource.password",
+      "type": "java.lang.String",
+      "description": "数据库连接密码",
+      "sourceType": "com.stone.custom.properties.CustomDataSourceConfigProperties",
+      "defaultValue": "root"
+    },
+    {
+      "name": "stone.datasource.url",
+      "type": "java.lang.String",
+      "description": "驱动连接的URL",
+      "sourceType": "com.stone.custom.properties.CustomDataSourceConfigProperties"
+    },
+    {
+      "name": "stone.datasource.username",
+      "type": "java.lang.String",
+      "description": "数据库连接用户名",
+      "sourceType": "com.stone.custom.properties.CustomDataSourceConfigProperties",
+      "defaultValue": "root"
+    },
+    {
+      "name": "stone.global.author",
+      "type": "java.lang.String",
+      "description": "作者",
+      "sourceType": "com.stone.custom.properties.CustomGlobalConfigProperties",
+      "defaultValue": "作者"
+    },
+    {
+      "name": "stone.global.disable-open-dir",
+      "type": "java.lang.Boolean",
+      "description": "是否打开输出目录",
+      "sourceType": "com.stone.custom.properties.CustomGlobalConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.global.enable-swagger",
+      "type": "java.lang.Boolean",
+      "description": "开启 swagger 模式（默认 false 与 springdoc 不可同时使用）",
+      "sourceType": "com.stone.custom.properties.CustomGlobalConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.global.output-dir",
+      "type": "java.lang.String",
+      "description": ".java 文件的存放位置",
+      "sourceType": "com.stone.custom.properties.CustomGlobalConfigProperties"
+    },
+    {
+      "name": "stone.package.controller",
+      "type": "java.lang.String",
+      "description": "指定控制器包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "controller"
+    },
+    {
+      "name": "stone.package.entity",
+      "type": "java.lang.String",
+      "description": "指定实体包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "entity"
+    },
+    {
+      "name": "stone.package.mapper",
+      "type": "java.lang.String",
+      "description": "指定mapper接口包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "mapper"
+    },
+    {
+      "name": "stone.package.module-name",
+      "type": "java.lang.String",
+      "description": "指定父包模块名称",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "stone.package.other",
+      "type": "java.lang.String",
+      "description": "指定自定义文件包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "other"
+    },
+    {
+      "name": "stone.package.parent",
+      "type": "java.lang.String",
+      "description": "指定父包名。如果为空，将下面子包名必须写全部， 否则就只需写子包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "com.baomidou"
+    },
+    {
+      "name": "stone.package.service",
+      "type": "java.lang.String",
+      "description": "指定service接口包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "service"
+    },
+    {
+      "name": "stone.package.service-impl",
+      "type": "java.lang.String",
+      "description": "service实现类包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "service.impl"
+    },
+    {
+      "name": "stone.package.xml",
+      "type": "java.lang.String",
+      "description": "指定xml包名",
+      "sourceType": "com.stone.custom.properties.CustomPackageConfigProperties",
+      "defaultValue": "mapper.xml"
+    },
+    {
+      "name": "stone.strategy.disable-sql-filter",
+      "type": "java.lang.Boolean",
+      "description": "启用sql过滤，语法不能支持使用sql过滤表的话，可以考虑关闭此开关. @since 3.3.1",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.strategy.enable-capital-mode",
+      "type": "java.lang.Boolean",
+      "description": "是否大写命名（默认 false）",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.strategy.enable-schema",
+      "type": "java.lang.Boolean",
+      "description": "启用 schema 默认 false",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.strategy.enable-skip-view",
+      "type": "java.lang.Boolean",
+      "description": "是否跳过视图（默认 false）",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "stone.strategy.exclude",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "需要排除的表名，允许正则表达式<br\/> 当{@link #disableSqlFilter}为false时，正则表达式无效.",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.strategy.field-prefix",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "过滤字段前缀 example: addFieldPrefix(\"is_\") result: is_deleted -> deleted",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.strategy.field-suffix",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "过滤字段后缀 example: addFieldSuffix(\"_flag\") result: deleted_flag -> deleted",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.strategy.include",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "需要包含的表名，允许正则表达式（与exclude二选一配置）<br\/> 当{@link #disableSqlFilter}为false时，正则表达式无效.",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.strategy.table-prefix",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "过滤表前缀 example: addTablePrefix(\"t_\") result: t_simple -> Simple",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.strategy.table-suffix",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "过滤表后缀 example: addTableSuffix(\"_0\") result: t_simple_0 -> Simple",
+      "sourceType": "com.stone.custom.properties.CustomStrategyConfigProperties"
+    },
+    {
+      "name": "stone.template.controller",
+      "type": "java.lang.String",
+      "description": "设置控制器模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    },
+    {
+      "name": "stone.template.entity",
+      "type": "java.lang.String",
+      "description": "设置实体模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    },
+    {
+      "name": "stone.template.mapper",
+      "type": "java.lang.String",
+      "description": "设置Mapper模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    },
+    {
+      "name": "stone.template.service",
+      "type": "java.lang.String",
+      "description": "设置Service模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    },
+    {
+      "name": "stone.template.service-impl",
+      "type": "java.lang.String",
+      "description": "设置ServiceImpl模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    },
+    {
+      "name": "stone.template.xml",
+      "type": "java.lang.String",
+      "description": "设置MapperXml模板路径",
+      "sourceType": "com.stone.custom.properties.CustomTemplateConfigProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "stone.global.disable-open-dir",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】打开输出目录"
+        },
+        {
+          "value": true,
+          "description": "不打开输出目录"
+        }
+      ]
+    },
+    {
+      "name": "stone.global.enable-swagger",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】不开启 swagger 模式"
+        },
+        {
+          "value": true,
+          "description": "开启 swagger 模式"
+        }
+      ]
+    },
+    {
+      "name": "stone.strategy.disable-sql-filter",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】不启用sql过滤"
+        },
+        {
+          "value": true,
+          "description": "启用sql过滤"
+        }
+      ]
+    },
+    {
+      "name": "stone.strategy.enable-capital-mode",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】不大写命名"
+        },
+        {
+          "value": true,
+          "description": "大写命名"
+        }
+      ]
+    },
+    {
+      "name": "stone.strategy.enable-schema",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】不启用 schema"
+        },
+        {
+          "value": true,
+          "description": "启用 schema"
+        }
+      ]
+    },
+    {
+      "name": "stone.strategy.enable-skip-view",
+      "values": [
+        {
+          "value": false,
+          "description": "【默认】不跳过视图"
+        },
+        {
+          "value": true,
+          "description": "跳过视图"
+        }
+      ]
+    }
+  ]
+}

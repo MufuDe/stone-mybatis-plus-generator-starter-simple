@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.stone.mybatis</groupId>
+    <artifactId>stone-mybatis-plus-generator-starter-simple</artifactId>
+    <version>1.0.0.RELEASE</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.boot.starter.web.version>2.3.12.RELEASE</spring.boot.starter.web.version>
+        <mybatis.plus.generator.version>3.5.2</mybatis.plus.generator.version>
+        <mybatis.plus.annotation.version>3.4.3</mybatis.plus.annotation.version>
+        <mybatis.plus.core.version>3.4.3</mybatis.plus.core.version>
+        <mybatis.plus.extension.version>3.4.3</mybatis.plus.extension.version>
+        <kotlin.runtime.version>1.0.7</kotlin.runtime.version>
+        <freemarker.version>2.3.31</freemarker.version>
+        <velocity.version>1.5</velocity.version>
+        <beetl.version>3.10.0.RELEASE</beetl.version>
+        <mysql.connector.java.version>8.0.29</mysql.connector.java.version>
+        <slf4j.simple.version>1.7.21</slf4j.simple.version>
+        <spring.boot.configuration.processor.version>2.3.12.RELEASE</spring.boot.configuration.processor.version>
+    </properties>
+
+    <dependencies>
+        <!--   SpringBoot   -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.starter.web.version}</version>
+        </dependency>
+        <!--   mybatis-plus生成器依赖   -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis.plus.generator.version}</version>
+        </dependency>
+        <!--   mybatis-plus注解依赖   -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>${mybatis.plus.annotation.version}</version>
+        </dependency>
+        <!--   mybatis-plus核心依赖   -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-core</artifactId>
+            <version>${mybatis.plus.core.version}</version>
+        </dependency>
+        <!--   mybatis-plus额外拓展   -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>${mybatis.plus.extension.version}</version>
+        </dependency>
+        <!--   补充注解   -->
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-runtime</artifactId>
+            <version>${kotlin.runtime.version}</version>
+        </dependency>
+        <!--   freemarker模板框架   -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${freemarker.version}</version>
+        </dependency>
+        <!--   velocity   -->
+        <dependency>
+            <groupId>velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>${velocity.version}</version>
+        </dependency>
+        <!--   beetl   -->
+        <dependency>
+            <groupId>com.ibeetl</groupId>
+            <artifactId>beetl</artifactId>
+            <version>${beetl.version}</version>
+        </dependency>
+        <!--   mysql   -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.java.version}</version>
+        </dependency>
+        <!--   日志依赖   -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.simple.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--   配置提示   -->
+        <!--             <dependency>
+                                    <groupId>org.springframework.boot</groupId>
+                                    <artifactId>spring-boot-configuration-processor</artifactId>
+                                    <version>${spring.boot.configuration.processor.version}</version>
+                                    <optional>true</optional>
+                                </dependency> -->
+    </dependencies>
+
+</project>
