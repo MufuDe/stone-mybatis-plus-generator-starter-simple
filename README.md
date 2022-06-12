@@ -19,3 +19,22 @@
 <u>src/main/java/com/stone</u> 路径下均为自定义Java类，用于配置及生成代码；
 
 <u>src/main/resources/demo-yml</u> 路径下内容为模板配置文件，可以拷贝至需使用配置文件的项目下。
+
+## 三、使用方式
+
+spring boot项目下注入，调用方法即可。如下：
+
+```
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = GeneratorApplication.class)
+public class GeneratorTest {
+    //注入自定义的生成器对象
+    @Autowired
+    private CustomGenerator customGenerator;
+    //测试生成代码
+    @Test
+    public void testGenerator() throws Exception {
+        customGenerator.generateCode();
+    }
+}
+```
